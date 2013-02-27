@@ -6,8 +6,7 @@
 
 const int PROSSESSOR = F_cpu()
 
-
-function unsigned int ultralydlistener()
+volatile unsigned char flag = 0x00;
 
 timer = 0;
 const int MAX = max_tid;
